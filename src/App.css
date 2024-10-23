@@ -1,0 +1,30 @@
+main {
+
+    width: 100%;
+    height: 100%;
+
+    @media (max-width: 400px) {
+            
+       background-size: 100%;
+        
+
+    }
+
+    .genio {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        @media (max-width: 400px) {
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30rem;
+            
+
+        }
+    }
+}
+
